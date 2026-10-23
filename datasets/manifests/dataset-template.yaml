@@ -1,0 +1,81 @@
+# Template only. null = unknown, not zero. Do not use as an acquired dataset record.
+schema_version: 1
+record_type: template
+dataset_id: null
+name: null
+version: null
+source:
+  url: null
+  doi: null
+  publisher_or_owner: null
+  source_revision: null
+  checked_on: null
+  availability_status: NOT_CHECKED
+license:
+  identifier: null
+  terms_url: null
+  applies_to: null # Distinguish raw data from associated code.
+  restrictions: []
+  permitted_use_confirmed: false
+  redistribution_confirmed: false
+  checked_by: null
+  checked_on: null
+capture:
+  device: null
+  firmware_or_config: null
+  acquisition_conditions: null
+sample:
+  format: null # Container and encoding, e.g. verified MAT variable/type.
+  dimensions: [] # Ordered entries: {axis: ..., length: ...}.
+  dtype: null
+  bit_width: null
+  signed: null
+  endianness: null
+  complex_layout: null
+  units: null
+  sample_rate_hz: null
+  chirp_rate_hz: null
+  frame_rate_hz: null
+  calibration_reference: null
+storage:
+  local_path: null # ${THESIS_DATA_ROOT}/dataset-id/version; outside Git.
+  size_bytes: null
+  downloaded_on: null
+  download_authorized_by: null
+  backup_location_description: null # No credentials or private host identifiers.
+checksums:
+  algorithm: sha256
+  publisher_manifest_url: null
+  publisher_manifest_sha256: null
+  files: [] # {relative_path, size_bytes, sha256, verified_against_publisher}.
+extraction:
+  input_archive_sha256: null
+  commands: []
+  tool_versions: []
+processing:
+  steps: [] # Each: command, script_path, source_commit, parameters, input/output hashes.
+  output_manifest: null
+  output_manifest_sha256: null
+split:
+  strategy: null # Prefer independent sessions/sequences when applicable.
+  seed: null
+  train: []
+  validation: []
+  test: []
+  leakage_check: NOT_RUN
+contributor:
+  recorded_by: null
+  recorded_on: null
+citation:
+  preferred_text: null
+  bibliography_key: null
+  source_url: null
+validation:
+  state: NOT_RUN # PASS, FAIL, BLOCKED, NOT_RUN; no spaces in YAML enum.
+  checked_by: null
+  checked_on: null
+  shape_dtype_check: NOT_RUN
+  checksum_check: NOT_RUN
+  license_check: NOT_RUN
+  log_path: null
+  limitations: []

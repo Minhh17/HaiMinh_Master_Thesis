@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.md text
+*.csv text
+*.bib text
+*.sv text
+*.v text
+*.c text
+*.h text
+*.tcl text
+*.xdc text
+*.png binary
+*.jpg binary
+*.svg text

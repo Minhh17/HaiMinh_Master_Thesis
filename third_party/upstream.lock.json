@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "inspected_on": "2026-10-23",
+  "dependencies": [
+    {
+      "name": "ibex-demo-system",
+      "url": "https://github.com/lowRISC/ibex-demo-system.git",
+      "commit": "d37beb753e19482eb054aefac73a27289bf72e47",
+      "license": "Apache-2.0",
+      "verification": "source-inspected-build-not-run",
+      "role": "build",
+      "acquisition": "checkout"
+    },
+    {
+      "name": "ibex",
+      "url": "https://github.com/lowRISC/ibex.git",
+      "commit": "594ea976c9dad793f87edf91ec1c4c1df447e6dc",
+      "license": "Apache-2.0",
+      "verification": "source-inspected-build-not-run",
+      "role": "vendored-by-demo",
+      "acquisition": "included-in-demo",
+      "source_lock": "vendor/lowrisc_ibex.lock.hjson"
+    },
+    {
+      "name": "ibex-demo-system-labs",
+      "url": "https://github.com/lowRISC/ibex-demo-system-labs.git",
+      "commit": "5a2eec7ebd567a4ac763f4c1b971d191414ebe79",
+      "license": "CC-BY-4.0",
+      "verification": "source-inspected-build-not-run",
+      "role": "learning-reference",
+      "acquisition": "optional-checkout"
+    }
+  ],
+  "python_vcs_dependencies": [
+    {
+      "name": "edalize",
+      "url": "https://github.com/lowRISC/edalize.git",
+      "commit": "5ae2c3e1ca306e27d81ce5fcc769f62cb7ac42d0",
+      "verification": "source-inspected-build-not-run"
+    },
+    {
+      "name": "fusesoc",
+      "url": "https://github.com/lowRISC/fusesoc.git",
+      "commit": "14dfc825ced58fe1fb343662fa80fc4fbd0fdc50",
+      "verification": "source-inspected-build-not-run"
+    }
+  ],
+  "resolution_status": "Source pins only; Python package/transitive versions must be captured after first successful environment resolution."
+}

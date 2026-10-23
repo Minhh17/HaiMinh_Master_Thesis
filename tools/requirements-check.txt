@@ -1,0 +1,2 @@
+# Only the YAML validator needs this library. Other utilities use the standard library.
+PyYAML==6.0.2

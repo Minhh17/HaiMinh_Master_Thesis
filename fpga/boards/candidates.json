@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "source": "https://github.com/lowRISC/ibex-demo-system/blob/d37beb753e19482eb054aefac73a27289bf72e47/ibex_demo_system.core",
+  "inspected_on": "2026-10-23",
+  "candidates": [
+    {
+      "board": "arty-a7-35t",
+      "name": "Digilent Arty A7-35T",
+      "target": "synth",
+      "upstream_support": "good"
+    },
+    {
+      "board": "sonata",
+      "name": "NewAE Sonata",
+      "target": "synth_sonata",
+      "upstream_support": "good"
+    },
+    {
+      "board": "arty-s7-25t",
+      "name": "Digilent Arty S7-25T",
+      "target": "synth_artys7-25",
+      "upstream_support": "community-experimental"
+    },
+    {
+      "board": "arty-s7-50t",
+      "name": "Digilent Arty S7-50T",
+      "target": "synth_artys7-50",
+      "upstream_support": "community-experimental"
+    },
+    {
+      "board": "nexys-a7-100t",
+      "name": "Digilent Nexys A7-100T",
+      "target": "synth_nexysa7",
+      "upstream_support": "community-experimental"
+    },
+    {
+      "board": "blackboard",
+      "name": "RealDigital Blackboard",
+      "target": "synth_blackboard",
+      "upstream_support": "community-experimental"
+    },
+    {
+      "board": "boolean",
+      "name": "RealDigital Boolean",
+      "target": "synth_boolean",
+      "upstream_support": "community-experimental"
+    },
+    {
+      "board": "cw305-a100",
+      "name": "NewAE CW305-A100",
+      "target": "synth_cw305",
+      "upstream_support": "community-experimental"
+    },
+    {
+      "board": "cw312t-xc7a35",
+      "name": "NewAE CW312T-XC7A35",
+      "target": "synth_cw312a35",
+      "upstream_support": "community-experimental"
+    }
+  ]
+}

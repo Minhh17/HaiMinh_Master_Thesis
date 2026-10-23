@@ -1,0 +1,1 @@
+claim_id,claim_text,status,evidence_type,requirement_id,work_item_id,adr_path,implementation_commit,test_id,experiment_id,run_ids,artifact_path,artifact_sha256,external_citation_key,limitations,chapter_path,reviewed_by,reviewed_on

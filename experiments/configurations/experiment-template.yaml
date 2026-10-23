@@ -1,0 +1,83 @@
+# Fill before a real run. This file is not evidence of an executed experiment.
+schema_version: 1
+record_type: template
+experiment_id: null
+run_id: null
+title: null
+status: NOT_RUN
+evidence_type: null # HOST_CHECK, SIMULATION, FPGA_BUILD, FPGA_MEASUREMENT.
+question_or_requirement_ids: []
+work_item_ids: []
+adr_paths: []
+test_ids: []
+hypothesis_id: null
+plan:
+  objective: null
+  independent_variable: null
+  controlled_variables: []
+  baseline: null
+  acceptance_rule: null
+  correctness_oracle: null
+  numeric_tolerance: null
+  metric_definitions: [] # Include units and measurement boundaries.
+  repetitions: null
+  warmup: null
+  exclusion_rule: null
+  uncertainty_method: null
+  random_seed: null
+source:
+  repository_commit: null
+  working_tree_dirty: null
+  dirty_patch_path: null
+  dirty_patch_sha256: null
+  upstream_revisions: [] # {url, commit, license_reference}.
+  firmware_revision: null
+  firmware_binary_sha256: null
+  config_path: null # Immutable pre-run configuration, separate from run metadata.
+  config_sha256: null # Hash the final pre-run config; store in run metadata.
+environment:
+  os_description: null
+  tools: [] # {name, version, version_command, evidence_path}.
+  compiler_flags: []
+  simulator_flags: []
+  build_flags: []
+  vivado_user_available: true # Confirmed by user, not proof of runtime access.
+  vivado_agent_verified: false
+  board: null
+  fpga_part: null
+  board_revision: null
+  clock_hz: null
+  clock_source: null
+  timing_constraints_reference: null
+  memory_configuration: null
+  interface_configuration: null
+dataset:
+  manifest_path: null
+  manifest_sha256: null
+  input_sha256: null
+  subset_or_split: null
+  not_applicable_reason: null
+execution:
+  started_at_utc: null
+  ended_at_utc: null
+  operator: null
+  commands: [] # {working_directory, command, exit_code, log_path, log_sha256}.
+  prerequisites: []
+  blockers: []
+measurements:
+  state: NOT_RUN
+  timing_method: null
+  instrumentation: null
+  measurement_overhead: null
+  records: [] # {metric, value, unit, repetition, artifact_reference}.
+  limitations: []
+artifacts:
+  raw_storage_location: null # No credentials or private identifiers.
+  checksum_algorithm: sha256
+  files: [] # {path, kind, sha256, size_bytes, tracked_or_external}.
+analysis:
+  script_path: null
+  source_commit: null
+  command: null
+  output_sha256: null
+  report_path: null

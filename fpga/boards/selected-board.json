@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "status": "TBD",
+  "board": null,
+  "target": null,
+  "adr": null,
+  "reason": "Chưa chọn FPGA; Vivado có sẵn cho người dùng không đồng nghĩa board đã được duyệt."
+}

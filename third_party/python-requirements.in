@@ -1,0 +1,10 @@
+# Based on the pinned demo python-requirements.txt, inspected 2026-10-23.
+# Direct VCS refs fixed; PyPI and transitive versions are NOT fully locked.
+anytree
+hjson
+mako
+pyyaml
+wheel
+packaging
+edalize @ git+https://github.com/lowRISC/edalize.git@5ae2c3e1ca306e27d81ce5fcc769f62cb7ac42d0
+fusesoc @ git+https://github.com/lowRISC/fusesoc.git@14dfc825ced58fe1fb343662fa80fc4fbd0fdc50
