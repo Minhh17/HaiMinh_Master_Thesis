@@ -1,5 +1,7 @@
 # Backlog — nguồn duy nhất cho trạng thái task
 
+> Cập nhật 24/10/2026: đây là bản tham chiếu lúc khởi tạo. Kế hoạch/trạng thái đang dùng nằm trong [tracker Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx); báo cáo tuần dùng Word theo [planning index](README.md). Học viên tự cài môi trường, agent không tự chạy Make/test/build. Khi có khác biệt, ưu tiên tracker đã được học viên cập nhật.
+
 Cập nhật: **2026-10-23**. Owner mặc định: học viên; agent hỗ trợ tạo/review artifact. Không xem note do agent soạn là bằng chứng học viên đã hiểu. Mỗi task chỉ được DONE khi đáp ứng DoD trong [Phase 1](phase1-plan.md) và có đường dẫn bằng chứng tại đây.
 
 Trạng thái: `PLANNED` chưa bắt đầu; `ACTIVE` đang nghiên cứu/chuẩn bị; `IN_PROGRESS` đang triển khai; `BLOCKED` chưa thể làm bước cần thiết với điều kiện hiện có; `DONE` có evidence đáp ứng DoD; `DEFERRED` ngoài phạm vi hiện tại. Trạng thái test riêng là PASS/FAIL/BLOCKED/NOT RUN, không dùng thay trạng thái task.

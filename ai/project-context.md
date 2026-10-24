@@ -11,8 +11,18 @@ Không suy ra FPGA đã chạy từ việc Vivado được cài. Phase 1 dự ki
 ngày lịch không tự hoàn thành milestone. Phase 2–5 chỉ được tổ chức để mở rộng.
 
 Ngôn ngữ: tiếng Việt cho học tập/kế hoạch; identifiers và thuật ngữ kỹ thuật dùng tiếng Anh.
+Xác nhận 2026-10-24: giữ cấu trúc người dùng thu gọn, source trong `Project_source/`;
+học viên tự cài môi trường, agent không tự chạy Make/test/build. Plan/progress dùng Excel,
+đề cương và báo cáo GVHD dùng Word/Docs; hạn chế thêm Markdown/folder.
 Monorepo local-first, remote private khi được duyệt. Không có Zotero/remote storage bắt buộc.
 License phần tự viết còn chưa chọn. Build outputs, vendor tooling và raw data nằm ngoài Git.
+
+Lựa chọn học liệu ngày 2026-10-24: người dùng muốn theo **Computer Architecture:
+A Quantitative Approach, Sixth Edition**, John L. Hennessy và David A. Patterson.
+Dùng cuốn này làm sách chính cho các buổi học/giải thích kiến trúc tiếp theo; đối chiếu
+đúng chương/mục từ PDF, không dùng mục lục của *Computer Organization and Design*.
+Sách và PDF bài báo lưu cục bộ trong `Tài liệu/`; nguồn và phạm vi đã đọc được quản lý tại
+[literature index](../research/literature/README.md). Lựa chọn sách chưa xác nhận tiến độ học.
 
 Đọc [system context](../docs/architecture/system-context.md) và
 [verification matrix](../docs/verification/verification-matrix.md) trước khi tuyên bố behavior.

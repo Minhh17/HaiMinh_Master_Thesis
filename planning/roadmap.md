@@ -1,5 +1,7 @@
 # Roadmap luận văn
 
+> Cập nhật 24/10/2026: đây là bản tham chiếu lúc khởi tạo. Kế hoạch/trạng thái đang dùng nằm trong [tracker Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx); báo cáo tuần dùng Word theo [planning index](README.md). Học viên tự cài môi trường, agent không tự chạy Make/test/build. Khi có khác biệt, ưu tiên tracker đã được học viên cập nhật.
+
 Cập nhật: 2026-10-23. Trạng thái pha dưới đây mô tả phạm vi đang được mở; trạng thái từng việc chỉ ở [backlog](backlog.md). `VERIFIED` chỉ dùng khi gate có bằng chứng kiểm tra, không phải khi đã có tài liệu kế hoạch.
 
 | Pha | Trạng thái | Mục tiêu và giới hạn | Gate để kết thúc/mở pha tiếp |

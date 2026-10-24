@@ -1,5 +1,7 @@
 # Phase 1 — baseline Ibex trên FPGA
 
+> Cập nhật 24/10/2026: đây là bản tham chiếu lúc khởi tạo. Kế hoạch/trạng thái đang dùng nằm trong [tracker Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx); báo cáo tuần dùng Word theo [planning index](README.md). Học viên tự cài môi trường, agent không tự chạy Make/test/build. Khi có khác biệt, ưu tiên tracker đã được học viên cập nhật.
+
 Mục tiêu: dựng và hiểu baseline SoC, chạy firmware C, kiểm tra ngoại vi/debug, tái dựng và báo cáo giới hạn. Kế hoạch 8 tuần, 2026-10-21–2026-12-15; có thể rút/giãn trong khoảng 6–8 tuần theo điều kiện thực tế. Không cam kết hoàn tất khi board/tool chưa có. Trạng thái công việc chỉ đọc từ [backlog](backlog.md).
 
 ## Work packages và Definition of Done

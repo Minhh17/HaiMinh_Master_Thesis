@@ -21,20 +21,22 @@ Mỗi module chỉ được người học xác nhận khi có lời giải thí
 - [MMIO và memory map](soc-and-buses/mmio-memory-map.md): cách truy nguồn một địa chỉ; không bịa địa chỉ SoC.
 - [Nhật ký học](learning-journal/README.md): mỗi phiên ghi một điều hiểu, một evidence và một câu hỏi.
 
-## Đọc Patterson & Hennessy có mục tiêu
+## Sách chính theo lựa chọn của người học
 
-Tham chiếu *Computer Organization and Design RISC-V Edition*, 2nd edition, David A. Patterson và John L. Hennessy; mục lục được đối chiếu tại [nhà xuất bản Elsevier](https://shop.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6) ngày 2026-10-23. Không lưu bản PDF chưa có quyền sử dụng vào repo.
+Từ 2026-10-24, bám theo **Computer Architecture: A Quantitative Approach, Sixth Edition**
+của John L. Hennessy và David A. Patterson, do người dùng cung cấp.
+[Mở PDF](<../Tài liệu/Computer_Architecture_A_Quantitative_Approach_6th_Edition.pdf>);
+[danh tính, phạm vi kiểm tra và vị trí lưu](../research/literature/README.md).
+Lựa chọn này thay gợi ý trước về *Computer Organization and Design RISC-V Edition*,
+2nd edition; không dùng bảng chương của cuốn đó cho cuốn hiện tại.
 
-| Phần nên đọc | Dùng cho bài tập |
-| --- | --- |
-| Chương 1 — abstraction và performance | Phân biệt ISA, microarchitecture, SoC; định nghĩa metric |
-| Chương 2 — instruction set | Giải mã lệnh và đọc disassembly (CA01–CA02) |
-| Chương 3 — arithmetic | Width, signedness, overflow; chuẩn bị kiến thức DSP sau Phase 1 |
-| Chương 4 — processor | Datapath/pipeline rồi đối chiếu Ibex; không áp nguyên pipeline sách lên core |
-| Chương 5 — memory hierarchy | Hiểu latency và data movement; không giả định baseline có cache |
-| Phụ lục A — logic design | Ôn combinational/sequential logic trước khi đọc RTL |
+Các buổi giải thích và phần đọc tiếp theo lấy sách này làm trục chính, đối chiếu đúng
+chương/mục trong bản PDF. CS61C và các học liệu nền tảng trong tracker dùng để bổ trợ khi
+cần. Lịch, giờ và trạng thái học vẫn theo tracker Excel; chưa xác nhận đã đọc chương nào.
 
-Đây là gợi ý đọc theo chủ đề, không chép nội dung/bài giải sách. Với bản khác, đối chiếu tên chương thay vì suy trang/số mục. Đọc ISA từ [RISC-V Ratified Specifications](https://docs.riscv.org/reference/isa/v20260120/unpriv/rv32.html), cấu hình core từ [Ibex docs](https://ibex-core.readthedocs.io/en/latest/), wiring/build từ [Demo System](https://github.com/lowRISC/ibex-demo-system); pin thực tế có thể khác tài liệu `latest`.
+Ví dụ và khái niệm trong sách cần được đối chiếu với triển khai thực:
+ngữ nghĩa ISA tra đặc tả RISC-V, cấu hình core tra tài liệu Ibex, wiring/build tra
+Demo System theo revision của dự án. Không suy pipeline, cache hoặc số đo FPGA từ sách.
 
 ## Phân vùng ghi chép
 

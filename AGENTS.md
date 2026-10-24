@@ -1,8 +1,22 @@
 # Agent instructions
 
 Đọc theo thứ tự: [context](ai/project-context.md), [current state](ai/current-state.md),
-[next actions](ai/next-actions.md), [roadmap](planning/roadmap.md), task đang làm trong
-[backlog](planning/backlog.md), rồi design/ADR liên quan. Không dựa vào lịch sử chat.
+[next actions](ai/next-actions.md), [planning index](planning/README.md), tracker Excel
+và báo cáo tuần Word đang làm, rồi design/ADR liên quan. Không dựa vào lịch sử chat.
+
+## Quy ước người dùng xác nhận ngày 2026-10-24
+
+- Học viên tự cài và quản lý môi trường. Không tự chạy `make help`, `make doctor`,
+  `make vivado-check`, `make check`, test/build hoặc cài công cụ. Chỉ thực thi khi người dùng
+  yêu cầu rõ ở phiên sau; không yêu cầu chạy lệnh để hoàn tất một việc tài liệu.
+- Giữ cấu trúc đã thu gọn: engineering/source nằm trong `Project_source/`.
+  Tận dụng thư mục hiện có, không tự tách thêm nhiều folder.
+- Ưu tiên Word/Google Docs cho đề cương, báo cáo, tài liệu học thuật; Excel/Google Sheets
+  cho kế hoạch và tiến độ. Dùng `.md` cho README, AI instructions/context và tài liệu kỹ thuật
+  cần đi cùng code; không tạo nhiều bản Markdown của cùng một plan/report.
+- Kế hoạch/trạng thái công việc đang dùng nằm trong `planning/Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx`.
+  Báo cáo GVHD là bản chụp theo tuần: tiến độ tuần này; khó khăn và cách giải quyết;
+  nhiệm vụ tuần tới. Không tự gửi báo cáo cho thầy hoặc đánh dấu đã gửi.
 
 - Phạm vi hiện tại: Phase 1 Ibex SoC, C firmware, UART/GPIO/timer/interrupt/debug và baseline.
   Board TBD; Ibex là preferred candidate. Không tự triển khai accelerator/custom DSP/RF.
@@ -20,9 +34,8 @@
 - Yêu cầu người dùng phê duyệt trước destructive operations, external publishing/push,
   data/nontrivial source downloads, proprietary installs hoặc mua board, trừ khi phiên hiện tại
   đã cấp quyền rõ ràng. Đọc public docs không cần phê duyệt. Không tự gửi tin nhắn cho người khác.
-- Kiểm tra: `make help`, `make doctor`, `make check`. `make vivado-check` kiểm tra công cụ;
-  `make sim` build-only, `make fpga BOARD=...` yêu cầu board ADR. Thiếu tool phải báo BLOCKED.
-- Sau task: cập nhật task canonical trong backlog, evidence/test matrix nếu có,
+- Kiểm tra tài liệu bằng cách đọc lại file tạo/sửa. Không chạy toolchain/test theo mặc định.
+- Sau task: cập nhật tracker khi có thay đổi tiến độ thật, evidence/test matrix nếu có,
   `ai/current-state.md`, tối đa năm next actions và handoff theo template.
 - Thay đổi nhỏ, review được; không tự chọn identity Git hoặc license. Trước remote push
   kiểm tra staged files, ignore rules và xin phê duyệt cụ thể.

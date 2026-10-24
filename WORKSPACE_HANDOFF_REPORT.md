@@ -1,5 +1,8 @@
 # Workspace handoff — 2026-10-23
 
+Các phần khởi tạo dưới đây là lịch sử ngày 23/10. Bàn giao mới nhất ở
+[phiên đồng bộ Git 24/10](#git-sync-2026-10-24); quy ước hiện hành xem [AGENTS](AGENTS.md).
+
 **Đã tạo khung workspace có thể dùng ngay**, theo [spec v1.1](IBEX_THESIS_WORKSPACE_SPEC_v1.1.md)
 và xác nhận tiếp theo: chỉ cần khung; Vivado nằm trên server, cấu hình để TBD.
 Vị trí: `/home/haiminh/Desktop/Master_Thesis/riscv-ibex-thesis`.
@@ -83,3 +86,56 @@ Năm việc khi bắt đầu triển khai; prerequisites/DoD tại [next actions
 Phiên này tạo các file scaffold trong repo mới, kiểm tra bằng những lệnh ghi ở report.
 Open questions: server/tool/board/license. Xem revision bằng `git log -1 --oneline`
 và working tree bằng `git status --short`. Không tạo tag hardware baseline.
+
+## Session handoff 2026-10-24
+
+- **Thời gian / task / tác giả:** 24/10/2026, 22:18 (Asia/Phnom_Penh);
+  sắp xếp sách và ghi nhận học liệu chính, không tạo mã task học mới; Codex.
+- **Revision / trạng thái:** `main`, `d15e1e6`; working tree đã có thay đổi từ trước.
+  Các chỉnh sửa có sẵn được giữ lại; không commit/push.
+- **Yêu cầu / phạm vi:** chuyển sách Computer Architecture người dùng vừa thêm vào nơi
+  lưu tài liệu cùng PDF bài báo; lưu lựa chọn theo sách này trong các phiên học sau.
+- **Tệp thay đổi:** chuyển nguyên vẹn PDF từ root vào `Tài liệu/`, rút gọn tên file;
+  thêm README của thư mục và liên kết ở README gốc. `research/literature/README.md`
+  ghi danh tính, nguồn và checksum; `knowledge/README.md` chuyển sách chính từ gợi ý cũ
+  sang *Computer Architecture: A Quantitative Approach*, bản 6.
+  Tracker Excel cập nhật danh mục học liệu; AI context/state/next actions ghi lựa chọn.
+- **Lệnh thực tế / bằng chứng:** `pdftotext` đọc phần đầu PDF (exit 0);
+  `python3` chuyển file, đối chiếu SHA-256 và đọc lại tài liệu/liên kết (exit 0);
+  `git check-ignore -v` xác nhận PDF khớp `*.pdf` (exit 0).
+  Lượt đọc tracker bằng `python` ban đầu lỗi thiếu `pathlib`, đã đọc lại bằng `python3`.
+  Danh tính và checksum lưu tại [literature index](research/literature/README.md).
+- **Kiểm chứng:** PASS — PDF trước/sau cùng SHA-256; đọc lại nội dung và liên kết cục bộ
+  đã sửa. Tracker chỉ đổi `Chi tiet HK1!H42` và thêm học liệu R8 ở hàng 50, kèm định dạng
+  hàng đó; mọi công thức và nội dung khác giữ nguyên, 12 thành phần ZIP khác trùng từng byte.
+  Đã đọc lại năm ô thay đổi và xác nhận đường dẫn PDF tồn tại. Bằng chứng kiểm tra tạm:
+  `/tmp/computer_archi_tracker_nw4stu9l/verification.json`.
+  Đây là kiểm tra tài liệu, không phải kiểm chứng RTL/hardware.
+  Test dự án, Make, build, simulation và FPGA: **NOT RUN**.
+- **Quyết định:** dùng sách người dùng cung cấp làm nguồn lý thuyết chính;
+  PDF lưu ở `Tài liệu/`, ghi chú nguồn tiếp tục ở `research/literature/`.
+  Không có thay đổi kiến trúc cần ADR mới.
+- **Giới hạn:** mới đối chiếu phần đầu/mục lục, chưa review toàn văn hoặc xác nhận
+  người học đã hoàn thành phần đọc; lịch và tiến độ học không tăng vì sắp xếp tài liệu.
+- **State / next actions:** cập nhật `ai/project-context.md`, `ai/current-state.md`;
+  vẫn giữ tối đa năm mục ở `ai/next-actions.md`.
+- **Bước nhỏ tiếp theo:** khi bắt đầu buổi học, đối chiếu chủ đề đang làm trong tracker
+  với chương/mục thật của sách; đầu ra là phần đọc và bài tập phù hợp với mức hiểu hiện tại.
+
+## Git sync 2026-10-24
+
+- **Ngày / task / tác giả:** 24/10/2026 (Asia/Phnom_Penh); đồng bộ cập nhật tài liệu; Codex.
+- **Yêu cầu và quyền:** người dùng yêu cầu “giờ push lên git đi”; áp dụng cho bộ cập nhật
+  tài liệu hiện có, gồm quy ước Word/Excel, mẫu/nháp báo cáo tuần, tracker và học liệu chính.
+- **Revision / đích:** bắt đầu tại `main`, `d15e1e6`; `origin/main` cùng revision khi đọc
+  bằng `git ls-remote` (exit 0). Remote là `Minhh17/HaiMinh_Master_Thesis`, hiện public;
+  kết nối GitHub xác nhận quyền push. Dùng identity Git đã cấu hình.
+- **Phạm vi:** commit các tài liệu đã rà soát và push thường lên `origin/main`;
+  không force-push. PDF sách tiếp tục ở local theo `.gitignore`.
+- **Kiểm tra chuẩn bị:** đọc diff, nội dung hai Word và danh mục học liệu Excel;
+  không thấy secrets/build artifacts trong danh sách thay đổi. `git check-ignore -v`
+  xác nhận PDF bị bỏ qua (exit 0). Lần truy cập GitHub trong sandbox bị lỗi DNS;
+  lần truy cập có quyền mạng thành công. Không chạy Make/test/build (**NOT RUN**).
+- **State / hành động tiếp:** README và `ai/current-state.md` phản ánh remote hiện có;
+  tracker không đổi tiến độ vì đồng bộ Git. Năm mục `ai/next-actions.md` vẫn áp dụng.
+  Trạng thái push cuối cùng phải dựa trên kết quả lệnh và đối chiếu SHA local/remote.

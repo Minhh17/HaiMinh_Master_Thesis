@@ -1,5 +1,7 @@
 # Milestones và cổng chấp nhận
 
+> Cập nhật 24/10/2026: đây là bản tham chiếu lúc khởi tạo. Kế hoạch/trạng thái đang dùng nằm trong [tracker Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx); báo cáo tuần dùng Word theo [planning index](README.md). Học viên tự cài môi trường, agent không tự chạy Make/test/build. Khi có khác biệt, ưu tiên tracker đã được học viên cập nhật.
+
 Đây là **định nghĩa gate và ngày mục tiêu**, không phải tracker thứ hai. Đọc trạng thái task tại [backlog](backlog.md); một milestone chỉ đạt khi tất cả task gate đã DONE và evidence được review. Chưa tuyên bố milestone FPGA nào hoàn tất trong phiên tạo workspace.
 
 | Mốc | Ngày mục tiêu gốc | Task gate | Evidence tối thiểu |

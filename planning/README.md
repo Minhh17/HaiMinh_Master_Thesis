@@ -1,17 +1,28 @@
-# Điều hành công việc
+# Kế hoạch và báo cáo tuần
 
-Lập kế hoạch theo bằng chứng, không theo tỷ lệ hoàn thành tự ước lượng. Ngày khởi động Phase 1 là **2026-10-21**; phiên tạo workspace ngày **2026-10-23**, múi giờ Asia/Phnom_Penh.
+Cập nhật 24/10/2026. Dùng bộ Word/Excel trong thư mục này làm tài liệu làm việc chính.
+Source kỹ thuật đã được học viên gom vào `Project_source/`; học viên tự cài môi trường.
 
-| Cần biết | Tài liệu chuẩn |
-| --- | --- |
-| Task nào đang làm, đang chặn vì sao? | [Backlog](backlog.md) — nguồn duy nhất cho trạng thái task |
-| Mục tiêu toàn luận văn và điều kiện chuyển pha | [Roadmap](roadmap.md) |
-| WP1–WP6, tuần, phụ thuộc, Definition of Done | [Kế hoạch Phase 1](phase1-plan.md) |
-| Bằng chứng cần có ở từng mốc | [Milestones](milestones.md) |
-| Hành động trong tuần hiện tại | [Tuần 01](weekly/week-01.md) |
-| Chuẩn bị task/tuần mới | [Task template](templates/task.md), [weekly template](templates/weekly-review.md) |
-| Học gì song song? | [CA01–CA08](../knowledge/README.md) |
+| Công việc | Mở tài liệu |
+|---|---|
+| Kế hoạch học kỳ, Gantt, trạng thái công việc | [Project Tracker — Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx), tab **Project Plan** và **Chi tiet HK1** |
+| Ghi tiến độ và lịch sử báo cáo với thầy | Cùng tracker, tab **Bao cao tuan** |
+| Đề cương nghiên cứu | [Đề cương — Word](De_cuong_nghien_cuu_NguyenHaiMinh.docx) |
+| Soạn báo cáo tuần mới | [Mẫu báo cáo — Word](templates/Mau_bao_cao_tuan_GVHD.docx) |
+| Báo cáo tuần 01 đang soạn | [Nháp 21–27/10/2026](weekly/Bao_cao_tuan_01_2026-10-21_2026-10-27.docx) |
 
-Mỗi thay đổi kỹ thuật bắt đầu bằng task ID. Ghi quyết định vào ADR, kết quả chạy vào báo cáo tương ứng rồi liên kết bằng chứng từ backlog. Nhật ký tuần chỉ là ảnh chụp có ngày; không duy trì bảng trạng thái thứ hai. Nếu phải dời mốc, ghi nguyên nhân và ngày dự kiến mới, giữ nguyên mốc kế hoạch gốc để đánh giá tiến độ.
+Mỗi báo cáo có ba phần: **tiến độ công việc tuần này; khó khăn gặp phải và cách giải quyết;
+nhiệm vụ tuần tới**. Viết ngắn, nêu kết quả/sản phẩm cụ thể và 1–2 vấn đề cần thầy góp ý.
 
-Trước khi chọn việc, đọc [next actions](../ai/next-actions.md). Người học xác nhận hiểu biết bằng bài tập/giải thích lại; agent tạo note không đồng nghĩa người học đã hoàn tất module.
+Cuối tuần, cập nhật tracker, sao chép mẫu Word vào `weekly/`, rà soát và gửi theo lịch đã
+thống nhất với thầy. Sau trao đổi, ghi góp ý và nhiệm vụ điều chỉnh vào tracker. File nháp
+không được đánh dấu đã gửi. Có thể mở/import các file bằng Word/Excel hoặc Docs/Sheets.
+
+Tên báo cáo: `Bao_cao_tuan_NN_YYYY-MM-DD_YYYY-MM-DD.docx`.
+Mẫu và bản nháp không phải báo cáo chính thức. Tuần 01 mới cập nhật đến 24/10, chưa chốt tuần.
+Tab báo cáo có ngày đầu chu kỳ riêng; không thay đổi mốc Gantt/học kỳ đang có.
+
+Các file roadmap/phase1/backlog/milestones Markdown là tài liệu tham chiếu từ lần khởi tạo;
+tracker đang dùng được ưu tiên khi có khác biệt. Không cần duy trì một bản tiến độ Markdown
+song song. Tài liệu kỹ thuật chi tiết do học viên lưu trong `planning/` và `weekly/` được giữ
+làm nguồn tham khảo, không coi là báo cáo đã gửi thầy.

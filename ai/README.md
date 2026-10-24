@@ -2,8 +2,9 @@
 
 Đây là điểm vào cho phiên làm việc mới. [Project context](project-context.md) chứa mục tiêu
 ổn định; [current state](current-state.md) chứa bằng chứng và blocker hiện tại;
-[next actions](next-actions.md) đưa ra tối đa năm hành động. Task status canonical nằm ở
-[backlog](../planning/backlog.md), không tạo tracker riêng trong chat.
+[next actions](next-actions.md) đưa ra tối đa năm hành động. Kế hoạch/trạng thái đang dùng nằm ở
+[tracker Excel](../planning/Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx); báo cáo tuần dùng Word,
+xem [planning index](../planning/README.md). Không tạo tracker riêng trong chat hoặc Markdown.
 
 Workflows: [development](workflows/development.md), [research](workflows/research.md),
 [experiment](workflows/experiment.md), [documentation](workflows/documentation.md).
