@@ -20,3 +20,5 @@ manual latest có thể thay đổi, phải đối chiếu với pin và tool ve
 Lab 4 có custom instruction nhưng **deferred**: không thuộc Phase 1.
 Không nhập số performance từ README upstream thành kết quả của luận văn.
 Tài liệu tool phải khớp version được ghi trong [tool-versions](../../tools/tool-versions.md).
+
+PDF sách/bài báo cục bộ được tập trung trong [Tài liệu](<../../Tài liệu/>), cập nhật 26/10/2026. Thư mục này giữ chỉ mục nguồn kỹ thuật.

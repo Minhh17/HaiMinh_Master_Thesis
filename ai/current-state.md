@@ -1,38 +1,26 @@
-# Current state — 2026-10-24 (Asia/Phnom_Penh)
+# Current state — 2026-10-26 (Asia/Phnom_Penh)
 
-Đang chuẩn bị Phase 1; chưa có baseline Ibex trên FPGA được xác nhận.
-Học viên đã thu gọn engineering/source vào `Project_source/`; giữ cấu trúc hiện tại.
-Vivado nằm trên server của học viên, version/path/board còn TBD.
+Ưu tiên tuần này theo người dùng: học kiến thức và tự dựng các khối RV32I phục vụ BTL
+Kiến trúc máy tính tiên tiến, dùng cùng nền tảng cho luận văn Ibex. Sách chính vẫn là
+Hennessy/Patterson, Computer Architecture: A Quantitative Approach, 6th edition.
+Cần dạy kiến thức có nguồn, ví dụ và thực hành; không chỉ hướng dẫn đọc sách.
 
-Quy ước mới: học viên tự cài môi trường. Agent không tự chạy `make help`, `make doctor`,
-`make vivado-check`, `make check`, test/build hoặc cài công cụ. Phiên 24/10 chỉ chỉnh tài liệu
-và báo cáo; không thực thi các lệnh đó. Kết quả kiểm tra ngày 23/10 là lịch sử của cấu trúc cũ,
-không được coi là kiểm chứng lại sau khi di chuyển source.
+Đã đọc chọn lọc §1.3, §1.9 tr.52–53, A.9 và C.1 để soạn bài Word; đối chiếu RV32I v2.1
+ở thư viện v20260120. Sách chủ yếu minh họa RV64G; bài tập dùng RV32I. Đã đọc đề BTL
+và XML T3; có control tay, chưa có bằng chứng CPU hoàn chỉnh. Nhánh U-immediate có
+nghi vấn từ cấu trúc cần test; chưa mô phỏng, không kết luận FAIL thực nghiệm.
 
-Kế hoạch và trạng thái đang dùng: `planning/Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx`.
-Trong lần bổ sung báo cáo trước đó, hai tab kế hoạch được giữ nội dung/công thức;
-thêm tab **Bao cao tuan** để ghi tiến độ,
-khó khăn, cách giải quyết, nhiệm vụ tuần tới, ngày gửi và góp ý của thầy.
+Người dùng xác nhận tuần thứ Hai–Chủ nhật: tuần 01 = 26/10–01/11; tuần 02 = 02–08/11.
+Lịch 10 giờ dự kiến ở tab Hoc RV32I tuan trong tracker; trạng thái học vẫn chưa thực hiện.
+Đã cập nhật mẫu/báo cáo Word đủ tiến độ, vấn đề và giải pháp, ý nghĩa thiết kế, kế hoạch tới.
+Không có ngày gửi/góp ý thầy. Bản nháp 21–27/10 giữ làm lịch sử và gắn nhãn thay thế.
 
-Đã tạo mẫu báo cáo Word và nháp tuần 01 (21–27/10), cập nhật đến 24/10.
-Nháp chỉ ghi điều đã xác nhận: có workspace/đề cương/tracker, source đã được gom;
-không tuyên bố học viên đã hoàn thành nội dung học, simulation hoặc hardware.
-Chưa gửi báo cáo cho thầy. Ưu tiên Word/Docs cho báo cáo và Excel/Sheets cho plan/progress;
-Markdown dùng cho index, context và tài liệu kỹ thuật cần đi cùng code.
+Sách đã chuẩn hóa tên để khớp link; 9 PDF bài báo chuyển từ docs/references sang Tài liệu.
+SHA-256 của cả 10 PDF trước/sau trùng nhau; không tải thêm hoặc publish. Index đã cập nhật.
+Bài học ở knowledge/computer-architecture/Bai_hoc_RV32I_Tuan_01_2026-10-26.docx.
 
-Kết quả đọc lại ở lần bổ sung báo cáo: 2 Word đều có ba phần; tracker mở lại được và giữ nguyên
-cell values/formulas, number formats, merged ranges của hai tab gốc. Không chạy bộ test dự án.
-Tiếp tục ở [planning index](../planning/README.md) và [next actions](next-actions.md).
-
-Đã sắp xếp sách người dùng thêm ngày 24/10 vào
-`Tài liệu/Computer_Architecture_A_Quantitative_Approach_6th_Edition.pdf`;
-checksum trước/sau trùng nhau. Thư mục này dùng chung cho sách và PDF bài báo cục bộ.
-Người dùng chọn cuốn này làm sách chính từ đây; knowledge index và danh mục học liệu
-trong tracker đã đồng bộ lựa chọn. Chỉ kiểm tra phần đầu/mục lục để nhận diện sách,
-chưa xác nhận đã đọc chương nào; không tăng trạng thái hoàn thành công việc học.
-PDF vẫn được Git ignore. Handoff phiên này ở `WORKSPACE_HANDOFF_REPORT.md`.
-
-Đồng bộ Git ngày 24/10: người dùng đã yêu cầu commit/push các cập nhật tài liệu.
-Remote `origin` là `https://github.com/Minhh17/HaiMinh_Master_Thesis.git`, nhánh `main`;
-repository hiện public. Đã xác nhận quyền push, nhánh remote cùng revision gốc `d15e1e6`
-và PDF không thuộc danh sách commit. Không thay đổi tiến độ học hoặc trạng thái báo cáo GVHD.
+Phase 1 luận văn vẫn là baseline Ibex SoC/firmware/peripherals; board TBD, chưa baseline
+FPGA xác nhận. Không thực hiện build/test toolchain, cài đặt hoặc sửa mạch T3. Đã đọc lại
+Word/Excel, giữ nguyên công thức tracker. Xuất PDF xem bố cục bằng LibreOffice không thành
+công trong sandbox; chưa có xác nhận render. Không đổi trạng thái verification matrix.
+Xem planning/README.md và WORKSPACE_HANDOFF_REPORT.md; không commit/push phiên này.

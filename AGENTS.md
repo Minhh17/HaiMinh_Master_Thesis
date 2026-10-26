@@ -15,8 +15,8 @@ và báo cáo tuần Word đang làm, rồi design/ADR liên quan. Không dựa 
   cho kế hoạch và tiến độ. Dùng `.md` cho README, AI instructions/context và tài liệu kỹ thuật
   cần đi cùng code; không tạo nhiều bản Markdown của cùng một plan/report.
 - Kế hoạch/trạng thái công việc đang dùng nằm trong `planning/Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx`.
-  Báo cáo GVHD là bản chụp theo tuần: tiến độ tuần này; khó khăn và cách giải quyết;
-  nhiệm vụ tuần tới. Không tự gửi báo cáo cho thầy hoặc đánh dấu đã gửi.
+  Báo cáo GVHD là bản chụp theo tuần: tiến độ tuần này; khó khăn và cách giải quyết; ý nghĩa thiết kế;
+  nhiệm vụ tuần tới. Chu kỳ thứ Hai–Chủ nhật, tuần 01 bắt đầu 26/10/2026. Không tự gửi báo cáo cho thầy hoặc đánh dấu đã gửi.
 
 - Phạm vi hiện tại: Phase 1 Ibex SoC, C firmware, UART/GPIO/timer/interrupt/debug và baseline.
   Board TBD; Ibex là preferred candidate. Không tự triển khai accelerator/custom DSP/RF.
@@ -42,3 +42,7 @@ và báo cáo tuần Word đang làm, rồi design/ADR liên quan. Không dựa 
 
 Quy trình: [development](ai/workflows/development.md), [research](ai/workflows/research.md),
 [experiment](ai/workflows/experiment.md), [documentation](ai/workflows/documentation.md).
+
+- Khi dạy: soạn giải thích kiến thức, ví dụ giải, bài tự làm và thực hành gắn khối RISC-V;
+  bám sách Hennessy/Patterson 6th edition với mục/trang đã đọc và đối chiếu ISA. Không chỉ
+  đưa reading guide. Đầu ra học thuật Word; chưa xác nhận người học hiểu/đạt khi chỉ có AI draft.

@@ -26,3 +26,8 @@ Sách và PDF bài báo lưu cục bộ trong `Tài liệu/`; nguồn và phạm
 
 Đọc [system context](../docs/architecture/system-context.md) và
 [verification matrix](../docs/verification/verification-matrix.md) trước khi tuyên bố behavior.
+
+Xác nhận 26/10/2026: học qua bài giảng giải thích và thực hành có nguồn sách, không chỉ
+hướng dẫn đọc; ưu tiên các khối RV32I cho BTL tuần này. Báo cáo Word thứ Hai–Chủ nhật
+có ý nghĩa thiết kế bên cạnh tiến độ, khó khăn/giải pháp và kế hoạch tuần tới. Thực hành
+Logisim là nền tảng học chung, chưa thay thế hoặc chứng minh baseline Ibex FPGA.

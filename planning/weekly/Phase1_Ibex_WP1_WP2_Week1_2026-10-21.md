@@ -1,3 +1,5 @@
+> Tài liệu tham khảo cũ. Từ 26/10/2026, lịch tuần dùng tracker Excel và bài học/báo cáo Word trong planning/README.md; các lệnh ở đây không phải yêu cầu thực hiện trong tuần hiện hành.
+
 # Phase 1 — Ibex RISC-V SoC: khảo sát nền tảng và kế hoạch tuần 1
 
 Nguyễn Hải Minh · Luận văn thạc sĩ Kỹ thuật máy tính, HUST  

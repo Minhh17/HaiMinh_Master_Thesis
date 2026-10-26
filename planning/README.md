@@ -1,28 +1,20 @@
 # Kế hoạch và báo cáo tuần
 
-Cập nhật 24/10/2026. Dùng bộ Word/Excel trong thư mục này làm tài liệu làm việc chính.
-Source kỹ thuật đã được học viên gom vào `Project_source/`; học viên tự cài môi trường.
+Cập nhật 26/10/2026. Người dùng chọn chu kỳ **thứ Hai–Chủ nhật**, bắt đầu tuần 01
+26/10–01/11/2026. Tuần 02 là 02–08/11. Ngày báo cáo độc lập mốc Gantt học kỳ.
 
-| Công việc | Mở tài liệu |
-|---|---|
-| Kế hoạch học kỳ, Gantt, trạng thái công việc | [Project Tracker — Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx), tab **Project Plan** và **Chi tiet HK1** |
-| Ghi tiến độ và lịch sử báo cáo với thầy | Cùng tracker, tab **Bao cao tuan** |
-| Đề cương nghiên cứu | [Đề cương — Word](De_cuong_nghien_cuu_NguyenHaiMinh.docx) |
-| Soạn báo cáo tuần mới | [Mẫu báo cáo — Word](templates/Mau_bao_cao_tuan_GVHD.docx) |
-| Báo cáo tuần 01 đang soạn | [Nháp 21–27/10/2026](weekly/Bao_cao_tuan_01_2026-10-21_2026-10-27.docx) |
+- [Tracker Excel](Project_Tracker_HK1_Nguyen_Hai_Minh.xlsx): tab **Hoc RV32I tuan** là lịch
+  ưu tiên hiện tại; tab **Bao cao tuan** theo dõi báo cáo; giữ các trạng thái/công thức Gantt.
+- [Bài học Word](../knowledge/computer-architecture/Bai_hoc_RV32I_Tuan_01_2026-10-26.docx): sáu buổi có lý thuyết,
+  ví dụ, thực hành các khối T3 và phiếu ghi kết quả. Dự kiến 10 giờ gồm viết báo cáo.
+- [Báo cáo tuần 01](weekly/Bao_cao_tuan_01_2026-10-26_2026-11-01.docx): nháp cập nhật 26/10, chưa gửi.
+- [Mẫu báo cáo Word](templates/Mau_bao_cao_tuan_GVHD.docx).
+- [Đề cương Word](De_cuong_nghien_cuu_NguyenHaiMinh.docx).
 
-Mỗi báo cáo có ba phần: **tiến độ công việc tuần này; khó khăn gặp phải và cách giải quyết;
-nhiệm vụ tuần tới**. Viết ngắn, nêu kết quả/sản phẩm cụ thể và 1–2 vấn đề cần thầy góp ý.
+Báo cáo có bốn phần: **tiến độ và kết quả; khó khăn/vấn đề và giải pháp; ý nghĩa thiết kế;
+kế hoạch tuần tới**. Ghi rõ kết quả thật, bằng chứng, điều chưa đạt và điều cần thầy góp ý.
+Không coi bài học AI soạn hay vector kỳ vọng là kết quả học viên đã thực hiện.
 
-Cuối tuần, cập nhật tracker, sao chép mẫu Word vào `weekly/`, rà soát và gửi theo lịch đã
-thống nhất với thầy. Sau trao đổi, ghi góp ý và nhiệm vụ điều chỉnh vào tracker. File nháp
-không được đánh dấu đã gửi. Có thể mở/import các file bằng Word/Excel hoặc Docs/Sheets.
-
-Tên báo cáo: `Bao_cao_tuan_NN_YYYY-MM-DD_YYYY-MM-DD.docx`.
-Mẫu và bản nháp không phải báo cáo chính thức. Tuần 01 mới cập nhật đến 24/10, chưa chốt tuần.
-Tab báo cáo có ngày đầu chu kỳ riêng; không thay đổi mốc Gantt/học kỳ đang có.
-
-Các file roadmap/phase1/backlog/milestones Markdown là tài liệu tham chiếu từ lần khởi tạo;
-tracker đang dùng được ưu tiên khi có khác biệt. Không cần duy trì một bản tiến độ Markdown
-song song. Tài liệu kỹ thuật chi tiết do học viên lưu trong `planning/` và `weekly/` được giữ
-làm nguồn tham khảo, không coi là báo cáo đã gửi thầy.
+Bản nháp 21–27/10 và các plan Markdown cũ được giữ để tham khảo, đã được thay thế cho
+lịch tuần hiện hành. Học viên tự quản lý công cụ; không đưa việc kiểm tra workspace vào
+báo cáo học tập. Chưa có ngày gửi/góp ý GVHD; học viên tự gửi và bổ sung sau thực tế.

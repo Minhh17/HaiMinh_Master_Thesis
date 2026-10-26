@@ -139,3 +139,23 @@ và working tree bằng `git status --short`. Không tạo tag hardware baseline
 - **State / hành động tiếp:** README và `ai/current-state.md` phản ánh remote hiện có;
   tracker không đổi tiến độ vì đồng bộ Git. Năm mục `ai/next-actions.md` vẫn áp dụng.
   Trạng thái push cuối cùng phải dựa trên kết quả lệnh và đối chiếu SHA local/remote.
+
+
+## Phiên tài liệu ngày 26/10/2026 (Asia/Phnom_Penh)
+
+- Task: học theo sách gắn BTL RV32I; tác giả: Codex. Git đầu phiên sạch; chưa commit/push.
+- Đầu vào: PDF sách, tracker/báo cáo cũ; đọc thêm T3 và đề BTL tại thư mục môn học.
+- Đã chuẩn hóa tên sách, chuyển 9 PDF bài báo vào Tài liệu; checksum trước/sau trùng cả 10.
+- Đã soạn bài học Word sáu buổi, giải thích/ví dụ/bài thực hành; bảng expected không phải log.
+- Đã cập nhật mẫu/báo cáo tuần Word có ý nghĩa thiết kế; chuyển lịch 26/10–01/11 theo xác nhận
+  người dùng; báo cáo 21–27/10 giữ làm lịch sử. Tracker thêm kế hoạch tuần, giữ công thức cũ.
+- Đã đọc lại DOCX/XLSX bằng python-docx/openpyxl (exit 0); tính lại các mã S/B trong ví dụ.
+  Không có đoạn Kiểm tra workspace/direct utility tests/PyYAML trong báo cáo mới.
+- PASS: đọc lại cấu trúc Word/Excel, công thức tracker và kiểm tra bảo toàn PDF bằng SHA-256.
+  NOT RUN: Logisim, build/toolchain, FPGA. Không nâng trạng thái học hay verification matrix.
+- Preview PDF bằng LibreOffice thất bại trong sandbox (exit 1; dconf/read-only ở lần đầu,
+  lần gọi trực tiếp không có chẩn đoán). Chưa kiểm chứng bố cục bằng render; không cài công cụ.
+- Nguồn học: §1.3; §1.9 tr.52–53; A.9 A-33–40; C.1 C-2–6; RV32I v2.1/library v20260120.
+  Phân biệt ví dụ RV64G của sách và RV32I của BTL; branch target lấy PC lệnh + byte offset.
+- Chưa biết: trình độ thực tế, giờ thực tế, kết quả khối, GVHD/ngày gửi. Không suy ra từ tài liệu.
+- Next action nhỏ nhất: học viên giải thích Q/D rồi dựng PC+4; lưu bảng trước–sau cạnh.

@@ -1,4 +1,4 @@
-# Kế hoạch học CA01–CA08
+# Học kiến trúc máy tính gắn với đồ án
 
 `knowledge/` chứa lời giải thích do người học kiểm chứng. `docs/` mô tả triển khai thật; `research/` quản lý bằng chứng học thuật. Hai note khởi đầu dưới đây do AI hỗ trợ, **SOURCED DRAFT — chưa được người học kiểm chứng**. Đã mở nguồn ngày 2026-10-23 không đồng nghĩa đã thử nghiệm RTL hoặc hardware.
 
@@ -15,7 +15,16 @@
 
 Mỗi module chỉ được người học xác nhận khi có lời giải thích tự viết, bài tập và nguồn. Dùng [note template](templates/learning-note.md); task kỹ thuật vẫn theo [backlog](../planning/backlog.md), không thêm bảng phần trăm học.
 
-## Điểm bắt đầu
+## Bài học hiện tại — 26/10–01/11/2026
+
+[Bài học RV32I — Word](computer-architecture/Bai_hoc_RV32I_Tuan_01_2026-10-26.docx) là điểm bắt đầu hiện tại:
+trạng thái/clock → fetch/decode → register file/ALU → immediate → datapath/next PC →
+ý nghĩa thiết kế và liên hệ Ibex. Có giải thích, bài giải mẫu, bài tự làm và bảng expected;
+không chỉ giao danh sách trang cần đọc. Sáu buổi học và một buổi báo cáo, dự kiến 10 giờ.
+Lịch hiện hành ở tab **Hoc RV32I tuan** trong tracker; bảng CA01–CA08 phía trên là
+khung tham chiếu cũ, không phải lịch tuần đang thực hiện. Các mã Cxx trong tracker là mã học kỳ.
+
+## Tài liệu bổ trợ
 
 - [RV32I và pipeline Ibex](ibex-microarchitecture/rv32i-fetch-decode-execute.md): tách hành vi ISA khỏi tổ chức pipeline, có bài tập tay.
 - [MMIO và memory map](soc-and-buses/mmio-memory-map.md): cách truy nguồn một địa chỉ; không bịa địa chỉ SoC.
